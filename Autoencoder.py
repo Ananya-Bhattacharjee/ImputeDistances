@@ -40,9 +40,9 @@ def masked_mae(X_true, X_pred, mask):
 class Autoencoder:
 
     def __init__(self, data,
-                 recurrent_weight=0.78,
+                 recurrent_weight=0.75,
                  optimizer="adam",
-                 dropout_probability=0.78,
+                 dropout_probability=0.75,
                  hidden_activation="relu",
                  output_activation="sigmoid",
                  init="glorot_normal",
