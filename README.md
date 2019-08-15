@@ -10,7 +10,7 @@ We introduce two highly accurate machine learning based distance imputation tech
 -easygui
 -pandas
 -numpy 
--matplotlib.pylab 
+-matplotlib
 -seaborn
 -tensorflow
 -keras
