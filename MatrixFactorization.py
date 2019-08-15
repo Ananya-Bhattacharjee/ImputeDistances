@@ -84,7 +84,7 @@ if __name__ == "__main__":
                 R[i-1][j]=-1
                 missing=missing+1
                 j=j+1
-    print missing
+    print (missing)
 
     N = len(R)
     M = len(R[0])
@@ -97,7 +97,7 @@ if __name__ == "__main__":
 
     nR = numpy.dot(nP, nQ.T)
 
-    print nR
+    print (nR)
     Result = numpy.zeros(shape=(numg, numg))
 
 
