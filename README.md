@@ -17,9 +17,9 @@ We introduce two highly accurate machine learning based distance imputation tech
 
 # How to Run
 
-python MatrixFactorization.py
+~python MatrixFactorization.py
 
-python Autoencoder.py
+~python Autoencoder.py
 
 
-Select a distance matrix with missing entries and the complete matrix will be available as the output.
+Select a distance matrix with missing entries and the complete matrix will be available as the output. An example distance matrix with missing values (Missing.dis) is provided. All the inputs should follow this format. The file name should start with the number of taxa and than follow with the matrix. A missing entry should be represented with  a dot ('.').  
