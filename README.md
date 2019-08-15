@@ -2,7 +2,7 @@
 
 Requirement
 
--python 
+-python 3+
 -easygui
 -pandas
 -numpy 
