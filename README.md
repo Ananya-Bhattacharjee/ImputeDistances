@@ -22,4 +22,4 @@ We introduce two highly accurate machine learning based distance imputation tech
 ~python Autoencoder.py
 
 
-Select a distance matrix with missing entries and the complete matrix will be available as the output. An example distance matrix with missing values (Missing.dis) is provided. All the inputs should follow this format. The file name should start with the number of taxa and than follow with the matrix. A missing entry should be represented with  a dot ('.').  
+Select a distance matrix with missing entries and the complete matrix will be available as the output. An example distance matrix with missing values (Missing.dis) is provided. All the inputs should follow this format. The file should start with the number of taxa and then follow with the distance matrix. A missing entry should be represented with  a dot ('.').  
