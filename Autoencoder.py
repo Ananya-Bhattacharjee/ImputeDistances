@@ -144,6 +144,8 @@ class Autoencoder:
             self.data[missing_mask] *= old_weight
             pred_missing = X_pred[missing_mask]
             self.data[missing_mask] += self.recurrent_weight * pred_missing
+            if (observed_mae<0.000001):
+                break;
         return self.data.copy()
 
 
